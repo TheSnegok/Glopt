@@ -1,0 +1,92 @@
+.reviews
+    height: 470px
+    background-color: #fff
+    padding: 50px 0
+    &__header
+        margin-bottom: 16px
+        text-transform: uppercase
+    &__hr
+        width: 148px
+        height: 1px
+        background-color: $main-color
+        margin: 0 auto
+        margin-bottom: 17px
+    &__subheader
+        font-size: 21px
+        line-height: 24px
+        font-weight: 300
+        text-align: center
+        margin-bottom: 30px
+    .slider
+        display: flex
+        justify-content: space-around
+        align-items: center
+        position: relative
+        min-height: 240px 
+        .slide
+        .second
+            margin: 0 auto
+            text-align: center
+            width: 600px
+            max-height: 260px
+            order: 2
+            transition: opacity 1s ease
+            img
+                width: 120px
+                height: 120px
+                margin-bottom: 12px
+                border-radius: 100%
+            h2
+                font-size: 18px
+                font-weight: 700
+                line-height: 22px
+                margin-bottom: 16px
+                color: #3a3a3a
+            .slide__reviews
+                min-height: 100px
+                font-size: 14px
+                font-weight: 300
+                line-height: 22px
+                color: #3a3a3a
+                overflow: hidden
+        .first, .third
+            text-align: center
+            width: 360px
+            height: 180px
+            opacity: .5
+            margin: 0 1%
+            order: 1
+            transition: opacity 1s ease
+            img
+                width: 70px
+                height: 70px
+                margin-bottom: 10px
+                border-radius: 100%
+            h2
+                font-size: 10px
+                font-weight: 700
+                line-height: 14px
+                margin-bottom: 5px
+                color: #3a3a3a
+            .slide__reviews
+                font-size: 8.5px
+                font-weight: 300
+                line-height: 12px
+                color: #3a3a3a
+                overflow: hidden
+        .third
+            order: 3
+        &__prev
+            display: block
+            position: absolute
+            top: 40px
+            left: 50%
+            transform: translateX(-125px)
+            cursor: pointer
+        &__next
+            display: block
+            position: absolute
+            top: 40px
+            right: 50%
+            transform: translateX(125px)
+            cursor: pointer

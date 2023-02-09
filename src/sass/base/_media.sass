@@ -1,0 +1,594 @@
+@media (max-width: 1200px)
+	.header
+		font-size: 60px
+	.container
+		width: 90%
+		margin: 0 auto
+	.button
+		width: 140px
+		height: 40px
+		font-size: 10px
+		&__promo
+			width: 210px
+			height: 51px
+	.promo
+		padding: 15px 0 0
+		.hr_2
+			right: 3%
+		&__menu
+			justify-content: center
+		&__logo
+			width: 69px
+			img
+				width: 100%
+		&__list
+			ul
+				padding: 30px 10px 0 10px
+				li
+					span
+						font-size: 12px
+		&__contacts
+			margin-right: 10px
+		&__phone
+			font-size: 14px
+		&__name
+			margin-top: 12px
+			margin-bottom: 13px
+			font-size: 19px
+		&__header
+			font-size: 62px
+		&__subheader
+			font-size: 30px
+		&__wrapper
+			&_items
+				max-width: 175px
+				&-text
+					font-size: 14px
+	.work
+		&__wrapper_item
+			width:
+			&-img
+				width: 280px
+				height: 180px
+
+	.price
+		&__wrapper
+			&_item
+				width: 225px
+				.item_header
+					width: 219px
+	.advantages
+		padding-top: 40px
+		&__wrapper
+			justify-content: center
+			&_items
+				margin-bottom: 35px
+				align-items: center
+	.consultation
+		min-height: 330px
+		&__main
+			padding: 67px 90px 53px 90px
+			.form
+				.form__flex
+					display: flex
+					justify-content: space-around
+					input
+						width: 240px
+		&__icon_circle
+			width: 90px
+			height: 90px
+	.rewievs
+		padding: 35px 0
+	.footer
+		min-height: 185px
+		padding: 20px 0 25px 0
+		&__top
+			justify-content: space-evenly
+			margin-bottom: 20px
+			&_tagline
+				margin-right: 100px
+		&__hr
+			margin-bottom: 20px
+		&__bottom
+			&_name
+				text-align: center
+			&_creator
+				text-align: center
+	.ups
+		left: 96vw
+		width: 50px
+		height: 50px
+		img
+			width: 30px
+			height: 30px
+			margin-top: 20%
+@media (max-width: 993px)
+	.promo
+		&__logo
+			width: 50px
+			height: 50px
+		#burger
+			display: block
+			margin: 15px 0 0 15px
+			width: 20px
+			height: 20px
+			position: relative
+			-webkit-transition: .5s ease-in-out
+			-moz-transition: .5s ease-in-out
+			-o-transition: .5s ease-in-out
+			transition: .5s ease-in-out
+			cursor: pointer
+			span
+				display: block
+				position: absolute
+				height: 1px
+				width: 10px
+				background: #ffffff
+				opacity: 1
+				-webkit-transform: rotate(0deg)
+				-moz-transform: rotate(0deg)
+				-o-transform: rotate(0deg)
+				transform: rotate(0deg)
+				-webkit-transition: .25s ease-in-out
+				-moz-transition: .25s ease-in-out
+				-o-transition: .25s ease-in-out
+				transition: .25s ease-in-out
+				&:nth-child(even)
+					left: 50%
+					border-radius: 0 9px 9px 0
+				&:nth-child(odd)
+					left: 0px
+					border-radius: 9px 0 0 9px
+				&:nth-child(1), &:nth-child(2)
+					top: 0px
+				&:nth-child(3), &:nth-child(4)
+					top: 10px
+				&:nth-child(5), &:nth-child(6)
+					top: 20px
+			&.open
+				span
+					&:nth-child(1), &:nth-child(6)
+						-webkit-transform: rotate(45deg)
+						-moz-transform: rotate(45deg)
+						-o-transform: rotate(45deg)
+						transform: rotate(45deg)
+					&:nth-child(2), &:nth-child(5)
+						-webkit-transform: rotate(-45deg)
+						-moz-transform: rotate(-45deg)
+						-o-transform: rotate(-45deg)
+						transform: rotate(-45deg)
+					&:nth-child(1)
+						left: 3px
+						top: 7px
+					&:nth-child(2)
+						left: 50%
+						top: 7px
+					&:nth-child(3)
+						left: -100%
+						opacity: 0
+					&:nth-child(4)
+						left: 100%
+						opacity: 0
+					&:nth-child(5)
+						left: 11%
+						top: 14px
+						opacity: 1
+					&:nth-child(6)
+						left: 10px
+						top: 65%
+		&__list
+			.show
+				opacity: 1
+			ul
+				opacity: 0
+				padding: 15px 10px 0 10px
+				li
+					span
+						font-size: 9px
+		&__contacts
+			display: none
+		&__name
+			font-size: 20px
+		button
+			margin-top: 8px
+	.header
+		font-size: 45px
+	.work
+		&__wrapper
+			flex-wrap: wrap
+			align-content: center
+			flex-direction: column
+	.price
+		padding: 30px 0
+		&__wrapper
+			display: grid
+			grid-template: 1fr 1fr /1fr 1fr
+			grid-row-gap: 20px
+			&_item
+				margin: 0 auto
+				&:nth-child(4)
+					margin-right: auto
+	.consultation
+		&__main
+			padding: 67px 30px 53px
+	.questions
+		padding: 50px 0 55px
+		&__wrapper
+			width: 85%
+			height: 405px
+			&_form
+				text-align: center
+				input
+					width: 85%
+				textarea
+					width: 85%
+					margin-bottom: 15px
+	.ups
+		left: 94vw
+	.button__form
+		width: 160px
+		height: 40px
+	.reviews
+		.slider
+			.second
+				.slide__reviews
+					font-size: 10px
+					font-weight: 400
+					line-height: 16px
+@media (max-width: 767px)
+	.promo
+		padding: 23px 0 82px 0
+		&__logo
+			margin-top: 0px
+			width: 50px
+			height: 50px
+		#burger
+			display: block
+			margin: 15px auto 0 15px
+			width: 20px
+			height: 20px
+			position: relative
+			-webkit-transition: .5s ease-in-out
+			-moz-transition: .5s ease-in-out
+			-o-transition: .5s ease-in-out
+			transition: .5s ease-in-out
+			cursor: pointer
+			span
+				display: block
+				position: absolute
+				height: 1px
+				width: 10px
+				background: #ffffff
+				opacity: 1
+				-webkit-transform: rotate(0deg)
+				-moz-transform: rotate(0deg)
+				-o-transform: rotate(0deg)
+				transform: rotate(0deg)
+				-webkit-transition: .25s ease-in-out
+				-moz-transition: .25s ease-in-out
+				-o-transition: .25s ease-in-out
+				transition: .25s ease-in-out
+				&:nth-child(even)
+					left: 3%
+					border-radius: 0 9px 9px 0
+				&:nth-child(odd)
+					left: 10px
+					border-radius: 9px 0 0 9px
+				&:nth-child(1), &:nth-child(2)
+					top: 0px
+				&:nth-child(3), &:nth-child(4)
+					top: 10px
+				&:nth-child(5), &:nth-child(6)
+					top: 20px
+			&.open
+				span
+					&:nth-child(1), &:nth-child(6)
+						-webkit-transform: rotate(45deg)
+						-moz-transform: rotate(45deg)
+						-o-transform: rotate(45deg)
+						transform: rotate(45deg)
+					&:nth-child(2), &:nth-child(5)
+						-webkit-transform: rotate(-45deg)
+						-moz-transform: rotate(-45deg)
+						-o-transform: rotate(-45deg)
+						transform: rotate(-45deg)
+					&:nth-child(1)
+						left: 2px
+						top: 6px
+					&:nth-child(2)
+						left: 10px
+						top: 6px
+					&:nth-child(3)
+						left: -100%
+						opacity: 0
+					&:nth-child(4)
+						left: 100%
+						opacity: 0
+					&:nth-child(5)
+						left: 2px
+						top: 14px
+						opacity: 1
+					&:nth-child(6)
+						left: 10px
+						top: 71%
+		&__list
+			position: absolute
+			.show
+				display: block
+				padding: 10px
+				position: absolute
+				background-color: #303030
+				top: -10px
+				left: -100px
+				transition: 1s
+			ul
+				display: none
+				padding: 10px
+				position: absolute
+				background-color: #303030
+				top: -150%
+				left: -100px
+				transition: 1s
+				li
+					margin-bottom: 15px
+					&:last-child
+	                    border-right: 1px dotted #888b92
+					span
+						font-size: 20px
+		.hr_2
+			right: 2%
+		&__contacts
+			display: none
+		&__name
+			font-size: 20px
+		button
+			margin-top: 8px
+		&__wrapper
+			flex-wrap: wrap
+			font-size: 10px
+			font-weight: 400
+			line-height: 11px
+			.cargo-text
+				margin-top: 10px
+	.header
+		font-size: 45px
+		line-height: 50px
+	.work
+		&__wrapper
+			flex-wrap: wrap
+			align-content: center
+			flex-direction: column
+	.price
+		padding: 30px 0
+		&__wrapper
+			display: grid
+			grid-template: 1fr 1fr /1fr 1fr
+			grid-row-gap: 20px
+			&_item
+				margin: 0 auto
+				&:nth-child(4)
+					margin-right: auto
+	.consultation
+		min-height: 450px
+		&__main
+			height: 310px
+			padding: 67px 30px 53px
+			.form
+				&__flex
+					flex-direction: column
+					align-items: center
+	.questions
+		padding: 50px 0 55px
+		&__wrapper
+			width: 85%
+			height: 405px
+			&_form
+				text-align: center
+				input
+					width: 85%
+				textarea
+					width: 85%
+					margin-bottom: 15px
+	.ups
+		left: 94vw
+	.button__form
+		width: 160px
+		height: 40px
+	.reviews
+		.slider
+			.second
+				.slide__reviews
+					font-size: 10px
+					font-weight: 400
+					line-height: 16px
+	.footer
+		&__top_logo
+			margin-right: 10px
+		&__top_tagline
+			margin-top: 15px
+			margin-right: 0
+		&__top_contacts
+			padding-top: 10px
+			margin: 0
+			width: 40%
+			padding-right: 20px
+			&-phone
+				font-size: 10px
+				padd
+			&-question
+				font-size: 10px
+		button
+			width: 30%
+			font-size: 8px
+			margin-top: 13px
+			line-height: 10px
+@media (max-width: 575px)
+	.promo
+		&__logo
+			margin-top: 0px
+			width: 50px
+			height: 50px
+		#burger
+			display: block
+			margin: 15px auto 0 15px
+			width: 20px
+			height: 20px
+			position: relative
+			-webkit-transition: .5s ease-in-out
+			-moz-transition: .5s ease-in-out
+			-o-transition: .5s ease-in-out
+			transition: .5s ease-in-out
+			cursor: pointer
+			span
+				display: block
+				position: absolute
+				height: 1px
+				width: 10px
+				background: #ffffff
+				opacity: 1
+				-webkit-transform: rotate(0deg)
+				-moz-transform: rotate(0deg)
+				-o-transform: rotate(0deg)
+				transform: rotate(0deg)
+				-webkit-transition: .25s ease-in-out
+				-moz-transition: .25s ease-in-out
+				-o-transition: .25s ease-in-out
+				transition: .25s ease-in-out
+				&:nth-child(even)
+					left: 3%
+					border-radius: 0 9px 9px 0
+				&:nth-child(odd)
+					left: 10px
+					border-radius: 9px 0 0 9px
+				&:nth-child(1), &:nth-child(2)
+					top: 0px
+				&:nth-child(3), &:nth-child(4)
+					top: 10px
+				&:nth-child(5), &:nth-child(6)
+					top: 20px
+			&.open
+				span
+					&:nth-child(1), &:nth-child(6)
+						-webkit-transform: rotate(45deg)
+						-moz-transform: rotate(45deg)
+						-o-transform: rotate(45deg)
+						transform: rotate(45deg)
+					&:nth-child(2), &:nth-child(5)
+						-webkit-transform: rotate(-45deg)
+						-moz-transform: rotate(-45deg)
+						-o-transform: rotate(-45deg)
+						transform: rotate(-45deg)
+					&:nth-child(1)
+						left: 3px
+						top: 7px
+					&:nth-child(2)
+						left: 10px
+						top: 6px
+					&:nth-child(3)
+						left: -100%
+						opacity: 0
+					&:nth-child(4)
+						left: 100%
+						opacity: 0
+					&:nth-child(5)
+						left: 2px
+						top: 14px
+						opacity: 1
+					&:nth-child(6)
+						left: 10px
+						top: 71%
+		&__list
+			position: absolute
+			.show
+				display: block
+				padding: 10px
+				position: absolute
+				background-color: #303030
+				top: -10px
+				left: -100px
+				transition: 1s
+			ul
+				display: block
+				padding: 10px
+				position: absolute
+				background-color: #303030
+				top: -150%
+				left: -100px
+				transition: 1s
+				li
+					margin-bottom: 15px
+					&:last-child
+	                    border-right: 1px dotted #888b92
+					span
+						font-size: 20px
+		&__contacts
+			display: none
+		&__name
+			font-size: 20px
+		button
+			margin-top: 8px
+	.header
+		font-size: 45px
+	.work
+		&__wrapper
+			flex-wrap: wrap
+			align-content: center
+			flex-direction: column
+	.price
+		padding: 30px 0
+		&__wrapper
+			display: flex
+			flex-wrap: wrap
+			grid-row-gap: 20px
+			&_item
+				margin: 0 auto
+				&:nth-child(4)
+					margin-right: auto
+	.consultation
+		min-height: 480px
+		&__main
+			height: 310px
+			padding: 67px 30px 53px
+			.form
+				&__flex
+					flex-direction: column
+					align-items: center
+	.schem
+		&__wrapperOne
+			flex-wrap: wrap
+			justify-content: center
+			&_items
+				display: flex
+				flex-direction: column
+				align-items: center
+				margin: 0
+		&__wrapperTwo
+			flex-wrap: wrap
+			justify-content: center
+			&_items
+					display: flex
+					flex-direction: column
+					align-items: center
+					margin: 0
+	.questions
+		padding: 50px 0 55px
+		&__wrapper
+			width: 85%
+			height: 405px
+			&_form
+				text-align: center
+				input
+					width: 85%
+				textarea
+					width: 85%
+					margin-bottom: 15px
+	.ups
+		left: 94vw
+	.button__form
+		width: 160px
+		height: 40px
+	.reviews
+			.slider
+				.second
+					.slide__reviews
+						line-height: 12px
